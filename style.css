@@ -1,0 +1,206 @@
+*{
+    font-family: inter;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background: rgb(44,155,243);
+    background: linear-gradient(180deg, rgba(44,155,243,1) 0%, rgba(57,165,250,1) 56%, rgba(91,179,250,1) 88%);
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 100px;
+    
+}
+
+.logo-header{
+    display: flex;
+    align-items: center;
+}
+
+.logo-header h1{
+    color: blue;
+    margin-left: 20px;
+}
+
+.logo-header h2{
+    color: chartreuse;
+}
+
+.menu-header ul{
+    display: flex;
+    margin-left: 70px;
+    align-items: center;
+}
+
+.menu-header ul li{
+    margin-left: 80px;
+    list-style: none;
+}
+
+.menu-header ul button{
+    margin-left: 80px;
+    background-color: rgb(44,155,243);
+    background: linear-gradient(90deg, rgba(44,155,243,1) 0%, rgba(44,155,243,1) 16%, rgba(255,255,255,1) 98%);;;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+#banner{
+    padding-top: 100px;
+    padding-bottom: 1000px;
+    background: rgb(91,179,250);
+    background: linear-gradient(180deg, rgba(91,179,250,1) 27%, rgba(160,213,255,1) 42%, rgba(255,255,255,1) 80%);
+}
+
+.container-banner{
+    display: flex;
+    align-items: center;
+}
+
+.text-banner{
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+.text-banner h1{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.text-banner p{
+    color: #717171;
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+
+.text-banner button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: chartreuse;
+    color: antiquewhite;
+}
+
+.text-banner button:hover{
+    background-color: rgb(44,155,243);
+    background: linear-gradient(90deg, rgba(44,155,243,1) 0%, rgba(44,155,243,1) 16%, rgba(255,255,255,1) 98%);;;
+}
+
+.gambar-banner{
+    margin-right: 150px;
+}
+
+#aplikasi{
+    position: relative;
+    background: rgb(245,247,250);
+    background: linear-gradient(90deg, rgba(245,247,250,1) 100%, rgba(192,252,115,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.container-aplikasi{
+    background-color: white;
+    margin-left: 220px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 90px;
+    padding-left: 75px;
+    border-radius: 50px;
+    position: absolute;
+    top: -750px;
+}
+
+.text-aplikasi h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.icon-aplikasi{
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.icon-aplikasi img{
+    margin-left: 5px;
+}
+
+#layanan-mengatasi-mari-fitur{
+    padding-top: 100px;
+    background: rgb(245,247,250);
+background: linear-gradient(180deg, rgba(245,247,250,1) 8%, rgba(108,184,245,1) 32%, rgba(14,134,230,1) 50%, rgba(108,184,245,1) 68%, rgba(245,247,250,1) 92%);
+}
+
+.tentang button{
+    background-color: white;
+    color: #6cb8f5;
+    border-style: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 560px;
+}
+
+.tentang button:hover{
+    background-color: gainsboro;
+}
+
+#layanan{
+
+}
+
+.container-layanan{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.text-layanan{
+    margin-right: 200px;
+}
+
+.text-layanan h1{
+    margin-right: 50px;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+.text-layanan p{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+.height{
+    height: 2000px;
+}
+
