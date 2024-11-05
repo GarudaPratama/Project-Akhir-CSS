@@ -148,6 +148,7 @@
 }
 
 #layanan-mengatasi-mari-fitur{
+    height: 2700px;
     padding-top: 100px;
     background: rgb(245,247,250);
 background: linear-gradient(180deg, rgba(245,247,250,1) 8%, rgba(108,184,245,1) 32%, rgba(14,134,230,1) 50%, rgba(108,184,245,1) 68%, rgba(245,247,250,1) 92%);
@@ -193,14 +194,140 @@ background: linear-gradient(180deg, rgba(245,247,250,1) 8%, rgba(108,184,245,1) 
 }
 
 #mengatasi{
-    margin-top: 150px;
+    margin-top: 250px;
+}
+
+.text-mengatasi{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.text-mengatasi h1{
+    font-size: xx-large;
+    color: chartreuse;
+}
+
+.text-mengatasi p{
+    color: white;
+    margin-top: 35px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.gambar-mengatasi img{
+    margin-left: 20px;
 }
 
 
 .container-mengatasi{
-    width: 780px;
-    margin-left: 250px;
-    margin-right: 150px;
+    width: 820px;
+    margin-left: 210px;
+    margin-right: 200px;
+}
+
+#mari{
+    margin-top: 120px;
+}
+
+.text-mari{
+    text-align: center;
+}
+
+.container-mari{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.text-mari h1{
+    font-size: xx-large;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text-mari p{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.text-mari button{
+    background: white;
+    border-style: none;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.text-mari button:hover{
+    background: linear-gradient(93.97deg, #FF4A4A 20.74%, #FF6B6B 88.79%);
+    color: white;
+}
+
+
+.container-fitur{
+    display: flex;
+}
+
+.container-fitur span{
+    color: #6cb8f5;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.keunggulan-fitur{
+
+}
+
+.lorem1{
+    display: flex;
+    align-items: center;
+}
+
+.lorem2{
+    display: flex;
+    align-items: center;
+}
+
+.lorem3{
+    display: flex;
+    align-items: center;
+}
+
+.lorem4{
+    display: flex;
+    align-items: center;
+}
+
+.lorem5{
+    display: flex;
+    align-items: center;
+}
+
+.lorem6{
+    display: flex;
+    align-items: center;
+}
+
+.lorem7{
+    display: flex;
+    align-items: center;
+}
+
+.lorem8{
+    display: flex;
+    align-items: center;
+}
+
+.lorem9{
+    display: flex;
+    align-items: center;
 }
 
 
