@@ -386,7 +386,7 @@ background: linear-gradient(180deg, rgba(245,247,250,1) 8%, rgba(108,184,245,1) 
 
 
 #katamereka{
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 
@@ -504,19 +504,262 @@ background: linear-gradient(180deg, rgba(245,247,250,1) 8%, rgba(108,184,245,1) 
     margin-bottom: 70px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.height{
-    height: 2000px;
+#blog{
+    margin-top: 250px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: rgb(200,200,200);
+    background: linear-gradient(180deg, rgba(200,200,200,1) 6%, rgba(230,230,230,1) 24%, rgba(247,247,247,1) 37%, rgb(224, 221, 221) 63%, rgba(230,230,230,1) 76%, rgba(200,200,200,1) 100%);
 }
+
+
+.container-blog{
+    text-align: center;
+}
+
+.text-blog h1{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.text-blog p{
+    margin-bottom: 100px;
+}
+
+.box-blog{
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    margin-left: 210px;
+    justify-content: space-around;
+}
+
+.boxblog-1{
+    width: 270px;
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+
+.textboxblog-1{
+    background-color: white;
+    margin-top: -5px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textboxblog-1 h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.textboxblog-1 button{
+    border-style: none;
+    background-color: white;
+    color: blue;
+    margin-top: 10px;
+}
+
+.boxblog-2{
+    width: 270px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.textboxblog-2{
+    background-color: white;
+    margin-top: -5px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textboxblog-2 h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.textboxblog-2 button{
+    border-style: none;
+    background-color: white;
+    color: blue;
+    margin-top: 10px;
+}
+
+.boxblog-3{
+    width: 270px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.textboxblog-3{
+    background-color: white;
+    margin-top: -5px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textboxblog-3 h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.textboxblog-3 button{
+    border-style: none;
+    background-color: white;
+    color: blue;
+    margin-top: 10px;
+}
+
+.boxblog-4{
+    width: 270px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.textboxblog-4{
+    background-color: white;
+    margin-top: -5px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textboxblog-4 h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.textboxblog-4 button{
+    border-style: none;
+    background-color: white;
+    color: blue;
+    margin-top: 10px;
+}
+
+.boxblog-5{
+    width: 270px;
+    text-align: left;
+    
+    margin-bottom: 30px;
+}
+
+.textboxblog-5{
+    background-color: white;
+    margin-top: -5px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textboxblog-5 h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.textboxblog-5 button{
+    border-style: none;
+    background-color: white;
+    color: blue;
+    margin-top: 10px;
+}
+
+.boxblog-6{
+    width: 270px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.textboxblog-6{
+    background-color: white;
+    margin-top: -5px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textboxblog-6 h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.textboxblog-6 button{
+    border-style: none;
+    background-color: white;
+    color: blue;
+    margin-top: 10px;
+}
+
+#last{
+    margin-top: 300px;
+}
+
+.container-last h1{
+    text-align: center;
+    font-size: 35px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.button-last{
+    background-color: rgb(44,155,243);
+    background: linear-gradient(90deg, rgba(44,155,243,1) 0%, rgba(44,155,243,1) 16%, rgba(255,255,255,1) 100%);;;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.button-lasts{
+    background: gainsboro;
+    border-style: none;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+.button-lasts:hover{
+    background: linear-gradient(93.97deg, #FF4A4A 20.74%, #FF6B6B 88.79%);
+    color: white;
+}
+
+.button-last{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.button-lasts{
+    margin-left: 420px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
